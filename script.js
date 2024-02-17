@@ -30,7 +30,7 @@ newExpense.addEventListener("keyup",function (elem){
         clutter = Number(this.value);
         clutterNew += clutter;
         expval.textContent = `$${clutterNew}`
-        saved.textContent = `Money Saved :${incval - clutterNew}`
+        saved.textContent = `Money Saved : ${incval - clutterNew}`
     } else{
          return ;
     }
